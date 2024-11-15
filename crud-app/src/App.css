@@ -1,0 +1,78 @@
+div {
+  color:rgb(240, 240, 244);
+  font-size: 20px;
+  text-align: center;
+  font-style: italic;
+  
+}
+*{
+  margin-top: 0px;
+}
+
+h1{
+  color: rgb(239, 232, 235);
+  font-size: 25px;
+  text-align: center;
+  text-decoration: underline;
+}
+
+/* table, th, td{
+  background-color: antiquewhite;
+  font-size: 30px;
+} */
+table{
+  margin-left: auto;
+  margin-right: auto;
+}
+h2{
+  color:rgb(244, 217, 228);
+  text-decoration: underline;
+  text-align: center;
+  font-size: small;
+}
+
+input,button{
+  font-size: 24px;
+  color: rgb(9, 9, 20);
+}
+
+h2, table, th, td{
+  font-size: 20px;
+  margin-bottom: auto;
+  margin-right: auto;
+
+}
+
+div#first {
+  width: 350px;
+  max-width: 100%;
+  height: auto;
+  margin: auto;
+  padding: 50px;
+  background-color: rgba(219, 192, 225, 0.44);
+  color: #000000;
+  border: 2px solid #C2D6FF;
+  border-radius: 40px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+}
+
+
+form{
+  text-align: left;
+
+}
+
+#formButton{
+  margin-left: 23%;
+  color:rgb(67, 129, 164);
+
+}
+
+input::placeholder {
+  font-size: 15px; 
+  color: gray;    
+}
